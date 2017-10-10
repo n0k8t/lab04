@@ -30,9 +30,9 @@ $ git remote add origin https://github.com/${GITHUB_USERNAME}/lab04.git
 $ g++ -I./include -std=c++11 -c sources/print.cpp     #компилируем файл print.cpp
 $ ls print.o                                          #проверяем создался ли объектный файл 
 $ ar rvs print.a print.o                              #архивируем объктный файл и создаем статическую библиотеку
-$ file print.a                                        # получаем информацию об этом файле
+$ file print.a                                        #получаем информацию об этом файле
 $ g++ -I./include -std=c++11 -c examples/example1.cpp #компилируем файл example1.cpp
-$ ls example1.o                                       # проверяем создался ли объектный файл
+$ ls example1.o                                       #проверяем создался ли объектный файл
 $ g++ example1.o print.a -o example1                  #собираем с учетом библиотеки print.a
 $ ./example1 && echo                                  #запускаем и выводим содержимое
 ```
