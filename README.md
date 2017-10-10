@@ -125,7 +125,7 @@ $ rm -rf tmp
 $ cat CMakeLists.txt
 $ cmake -H. -B_build -DCMAKE_INSTALL_PREFIX=_install #Подготавливаем пространство для компиляции
 $ cmake --build _build --target install
-$ tree _install #Выводим информацию о системы в виде дерева
+$ tree _install                                      #Выводим информацию о системы в виде дерева
 ```
 Вывод из стандартного потока для команды tree _install
 ```
