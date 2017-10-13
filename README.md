@@ -16,7 +16,7 @@ $ open https://cmake.org/
 ## Tutorial
 Устанавливаем значение переменной окружения GITHUB_USERNAME 
 ```ShellSession
-$ export GITHUB_USERNAME=<имя_пользователя>
+$ export GITHUB_USERNAME=n0k8t
 ```
 Клонируем файлы из репозитория, и изменяем origin на lab04 
 ```ShellSession
